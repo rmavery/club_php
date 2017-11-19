@@ -6,7 +6,7 @@ My HOA is basically broke.   We wanted to put together a website that would prov
 
 # Wish List
 * Calendaring/Events capabilities
-*   Liking this: https://github.com/fullcalendar/fullcalendar
+**   Liking this: https://github.com/fullcalendar/fullcalendar
 * Forum with categories
 * Classifieds 
 * Advertising areas (for revenue from local advertisers or supporters)
