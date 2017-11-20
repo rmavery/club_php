@@ -8,6 +8,7 @@ My HOA is basically broke.   We wanted to put together a website that would prov
 * Calendaring/Events capabilities
   * Liking this: https://github.com/fullcalendar/fullcalendar
 * Forum with categories
+  * I'd like to do something like this one:  https://github.com/flarum/flarum
 * Classifieds 
 * Advertising areas (for revenue from local advertisers or supporters)
 * Document repository
