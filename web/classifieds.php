@@ -9,6 +9,15 @@
 
 
 	<body>
+	<?php
+// this may not be required if you use php autoload function
+require_once($_SERVER['DOCUMENT_ROOT']."/models/classified_category.php"); // assuming we have put models in models/ folder
+
+$_category=new Category();
+$cats=$_category->list_count();
+
+require_once($_SERVER['DOCUMENT_ROOT']."/views/index.html");
+?>
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -31,6 +40,7 @@
 
 									<h2>Section Heading</h2>
 									<p>This is text and stuff</p>
+									<a href="http://blog.calendarscripts.info/phpmysql-tutorial-classifieds-software-in-1-hour/">PHP Classifieds Tutorial</a>
 
 								</section>
 
