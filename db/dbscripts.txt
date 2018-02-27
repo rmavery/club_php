@@ -1,0 +1,38 @@
+
+
+-- ===============================================================
+CREATE TABLE `classifieds` (
+
+`id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+`category_id` INT UNSIGNED NOT NULL,
+
+`title` VARCHAR(255) NOT NULL,
+
+`content` TEXT NOT NULL,
+
+`contact_details` TEXT NOT NULL,
+
+`date` DATE NOT NULL
+
+);
+-- ===============================================================
+
+CREATE TABLE `classifieds_categories` (
+
+` id` INT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+` name` VARCHAR(255) NOT NULL
+
+);
+-- ===============================================================
+CREATE TABLE classifieds_admin (
+
+`id` TINYINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+`email` VARCHAR(255) NOT NULL,
+
+`pass` VARCHAR(100) NOT NULL
+
+);
+-- ===============================================================

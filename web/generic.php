@@ -5,6 +5,7 @@
 	<head>
 		<title>Generic Page Club Web</title>
 		<?php include $_SERVER['DOCUMENT_ROOT']."/shared/styles.inc"; ?>
+		<?php include $_SERVER['DOCUMENT_ROOT']."/config/db.config"; ?>
 	</head>
 
 
@@ -31,6 +32,7 @@
 
 									<h2>Section Heading</h2>
 									<p>This is text and stuff</p>
+									<h4>Test Result: dbpass = <?php echo($s_dbPass); ?></h4>
 
 								</section>
 

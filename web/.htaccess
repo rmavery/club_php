@@ -1,0 +1,20 @@
+# http://www.freewebmasterhelp.com/tutorials/htaccess/1
+
+
+# What is an .htacess File?
+# * Automatic page redirects
+# * Custom error page setup
+# * Password protected folders
+# * Custom index files
+# * Controlling user access
+
+
+# Error Pages
+ErrorDocument 404 /errors/404.htm
+ErrorDocument 500 /errors/500.htm
+ErrorDocument 403 /errors/403.htm
+
+# Protect .config files 
+<Files *.config> 
+	Deny from all
+</Files>
