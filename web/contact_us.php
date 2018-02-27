@@ -25,6 +25,10 @@
 									<header class="main">
 										<h1>Contact Us</h1>
 									</header>
+									<section>
+										The objective here, is to have a basic contact form where someone can email one or a choice of recipients.   Not sure what else, but I'm open to suggestions.  
+										<br /><strong>One issue I'm currently experienceing is how long the page takes to load.   Not sure why, but I really haven't dug a lot either</strong>
+									</section>
 
 									<!-- <span class="image main"><img src="/images/pic11.jpg" alt="" /></span> -->
 

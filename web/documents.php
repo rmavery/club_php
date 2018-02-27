@@ -25,12 +25,11 @@
 										<h1>Documents Page</h1>
 									</header>
 
-									<span class="image main"><img src="/images/pic11.jpg" alt="" /></span>
 
 									<hr class="major" />
 
 									<h2>Section Heading</h2>
-									<p>This is text and stuff</p>
+									<p>This will be a place for documents be downloaded, but for this I'll also need a back end way for someone with approrpriate rights to upload documents as well.</p>
 
 								</section>
 
